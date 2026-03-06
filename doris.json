@@ -1,0 +1,16 @@
+{
+  "type": "micro",
+  "wake_word": "doris",
+  "author": "phantom",
+  "website": "",
+  "model": "hey_doris.tflite",
+  "trained_languages": ["en"],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.98,
+    "sliding_window_size": 7,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22348,
+    "minimum_esphome_version": "2026.2.0"
+  }
+}
